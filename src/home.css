@@ -1,0 +1,79 @@
+
+
+body{
+    padding-top: 60px;
+}
+
+
+.logo{
+    width:70%;
+}
+
+
+.firstheading{
+    font-size:25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color:rgb(10, 92, 156);
+    text-align: center;
+}
+
+.small{
+    font-size:12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+    color:rgb(10, 92, 156);
+    text-align: center;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  .email-input {
+    border: none;
+    border-bottom: 2px solid rgb(10, 92, 156);; /* Border color */
+    outline: none;
+    font-size: 16px; /* Font size */
+    width: 100%;
+    padding: 5px;
+  }
+
+  .email-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px; /* Font size */
+    color: rgb(10, 92, 156);; /* Placeholder color */
+    transition: 0.2s;
+    pointer-events: none;
+  }
+
+  .email-input:focus + .email-label,
+  .email-input:not(:placeholder-shown) + .email-label {
+    transform: translateY(-25px);
+    font-size: 12px;
+    color: rgb(10, 92, 156); /* Color when focused or text is present */
+  }
+
+
+  .mybutton {
+      background-color: rgb(10, 92, 156);
+      color:white;
+      margin-top: 20px;
+  }
+
+  .forgot{
+      color:rgb(10, 92, 156);
+      text-align: center;
+      margin-top:0px;
+      font-size:13px;
+  }
+
+  .forgotdown{
+    color:rgb(10, 92, 156);
+    text-align: justify;
+    margin-top:0px;
+    font-size:13px;
+}
